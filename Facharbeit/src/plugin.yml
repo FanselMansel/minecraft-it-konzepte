@@ -1,0 +1,5 @@
+name: Facharbeit
+main: de.felix.facharbeit.main.Facharbeit
+version: 0.1
+commands:
+   countdown:
