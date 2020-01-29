@@ -15,7 +15,7 @@ import de.felix.facharbeit.main.Facharbeit;
  */
 
 public class Countdown implements CommandExecutor {
-	private int seconds = 11;
+	private int seconds = 60;
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
