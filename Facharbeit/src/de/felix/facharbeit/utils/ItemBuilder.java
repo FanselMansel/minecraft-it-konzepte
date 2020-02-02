@@ -5,13 +5,14 @@ package de.felix.facharbeit.utils;
  *
  */
 import java.util.List;
+
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 /**
- * ItemBuilder is a Class to create ItemStack or Skull-Heads.
+ * ItemBuilder-Klasse, die das leichte erstellen von Spielgegenständen möglich macht.
  */
 
 public class ItemBuilder {
@@ -20,7 +21,7 @@ public class ItemBuilder {
 	ItemMeta itemMeta;
 
 	/**
-	 * Create the Standard Item
+	 * Konstruktor jeden Items.
 	 * 
 	 * @param material
 	 * @param amount
@@ -32,7 +33,7 @@ public class ItemBuilder {
 	}
 
 	/**
-	 * Set a displayname for the Item
+	 * Setzt den Displaynamen des Items.
 	 * 
 	 * @param displayname
 	 * @return this
@@ -43,7 +44,7 @@ public class ItemBuilder {
 	}
 
 	/**
-	 * Add the Item a Enchantment with level
+	 * Fügt eine Verzauberung des Gegenstands zu.
 	 * 
 	 * @param enchantment
 	 * @param level
@@ -55,7 +56,7 @@ public class ItemBuilder {
 	}
 
 	/**
-	 * Set a lore for the Item
+	 * Setzt eine Beschreibung.
 	 * 
 	 * @param list
 	 * @return
@@ -66,8 +67,7 @@ public class ItemBuilder {
 	}
 
 	/**
-	 * Build a ItemStack with the Values of ItemBuilder. If exists displayname and
-	 * lore.
+	 * Gibt das erstellte Item zurück.
 	 * 
 	 * @return ItemStack
 	 */
@@ -76,6 +76,4 @@ public class ItemBuilder {
 		return this.item;
 	}
 
-	
 }
-
