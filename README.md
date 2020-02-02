@@ -4,7 +4,7 @@ Thema: Klassische Konzepte der Informatik mit einem Minecraft–Plugin vorstelle
 ## ToDOs
 
 - [X] Grundgerüst erstellen
-- [X ] Hashmap 
+- [X] Hashmap 
 - [X] Switchstatements
 - [ ] Weitere Blocks der ToDo Liste hinzufügen
 - [ ] Code in git Festhalten
