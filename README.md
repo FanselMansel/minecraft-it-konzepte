@@ -11,4 +11,4 @@ Thema: Klassische Konzepte der Informatik mit einem Minecraft–Plugin vorstelle
 - [ ] Code selbst reviewen
 - [ ] Word Doku
   - [ ] Herausfinden wie Code snippets einzufügen sind
-- [ ] ... 
+- [ ] In Erfahrung bringen ob vollständige Doku
