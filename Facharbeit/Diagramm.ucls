@@ -4,7 +4,7 @@
   router="FAN">  
   <class id="1" language="java" name="de.felix.facharbeit.commands.Countdown" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/commands/Countdown.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="333" x="1053" y="500"/>    
+    <position height="135" width="333" x="394" y="194"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -13,7 +13,7 @@
   </class>  
   <class id="2" language="java" name="de.felix.facharbeit.commands.Hashmap" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/commands/Hashmap.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="133" width="333" x="2461" y="37"/>    
+    <position height="133" width="333" x="509" y="819"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -23,7 +23,7 @@
   <class id="3" language="java" name="de.felix.facharbeit.listerners.Listener_BlockPlaceEvent" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/listerners/Listener_BlockPlaceEvent.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="99" width="173" x="2834" y="37"/>    
+    <position height="99" width="173" x="1108" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -33,7 +33,7 @@
   <class id="4" language="java" name="de.felix.facharbeit.listerners.Listener_InteractAndClickEvents" 
     project="Facharbeit" file="/Facharbeit/src/de/felix/facharbeit/listerners/Listener_InteractAndClickEvents.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="210" x="566" y="37"/>    
+    <position height="117" width="210" x="853" y="626"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -43,7 +43,7 @@
   <class id="5" language="java" name="de.felix.facharbeit.listerners.Listener_JoinQuitEvent" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/listerners/Listener_JoinQuitEvent.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="99" width="164" x="1504" y="37"/>    
+    <position height="99" width="164" x="305" y="819"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -52,7 +52,7 @@
   </class>  
   <class id="6" language="java" name="de.felix.facharbeit.listerners.Listener_ClickedWool" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/listerners/Listener_ClickedWool.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="185" x="1053" y="37"/>    
+    <position height="117" width="185" x="394" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -61,7 +61,7 @@
   </class>  
   <class id="7" language="java" name="de.felix.facharbeit.listerners.Listener_DropEvent" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/listerners/Listener_DropEvent.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="191" x="2230" y="37"/>    
+    <position height="99" width="191" x="877" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -70,7 +70,7 @@
   </class>  
   <class id="8" language="java" name="de.felix.facharbeit.listerners.Listener_Hashmap" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/listerners/Listener_Hashmap.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="200" x="326" y="37"/>    
+    <position height="153" width="200" x="245" y="626"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -80,72 +80,148 @@
   <class id="9" language="java" name="de.felix.facharbeit.listerners.Listeners_DamageEvent" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/listerners/Listeners_DamageEvent.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="117" width="218" x="1972" y="37"/>    
+    <position height="117" width="218" x="619" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="de.felix.facharbeit.main.Facharbeit" project="Facharbeit" 
-    file="/Facharbeit/src/de/felix/facharbeit/main/Facharbeit.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="207" width="176" x="1278" y="37"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="11" language="java" name="de.felix.facharbeit.main.KonzeptInventoryBuilder" project="Facharbeit" 
+  <class id="10" language="java" name="de.felix.facharbeit.main.KonzeptInventoryBuilder" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/main/KonzeptInventoryBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="162" x="3047" y="37"/>    
+    <position height="135" width="162" x="882" y="819"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="de.felix.facharbeit.utils.ItemBuilder" project="Facharbeit" 
+  <class id="11" language="java" name="de.felix.facharbeit.utils.ItemBuilder" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/utils/ItemBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="189" width="245" x="41" y="37"/>    
+    <position height="189" width="245" x="509" y="1282"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="13" language="java" name="de.felix.facharbeit.utils.UtilityMethods" project="Facharbeit" 
+  <class id="12" language="java" name="de.felix.facharbeit.utils.UtilityMethods" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/utils/UtilityMethods.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="197" x="816" y="37"/>    
+    <position height="153" width="197" x="1084" y="819"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="de.felix.facharbeit.values.Values" project="Facharbeit" 
+  <class id="13" language="java" name="de.felix.facharbeit.values.Values" project="Facharbeit" 
     file="/Facharbeit/src/de/felix/facharbeit/values/Values.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="423" width="224" x="1708" y="37"/>    
+    <position height="423" width="224" x="41" y="819"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="15">    
+  <class id="14" language="java" name="de.felix.facharbeit.main.Facharbeit" project="Facharbeit" 
+    file="/Facharbeit/src/de/felix/facharbeit/main/Facharbeit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="575" y="508"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="16">    
+    <bendpoint x="1093" y="369"/>    
+    <bendpoint x="1093" y="626"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="18">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="16" name="countdown"/>      
-      <multiplicity id="17" minimum="0" maximum="1"/>    
+      <attribute id="19" name="countdown"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="18">    
-    <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="19" name="plugin"/>      
-      <multiplicity id="20" minimum="0" maximum="1"/>    
+  <dependency id="21">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="22">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="23">    
+    <bendpoint x="214" y="369"/>    
+    <bendpoint x="214" y="626"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="30">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="34">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="35">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="36">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="37" name="plugin"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="10" navigable="true"/>    
+    <end type="TARGET" refId="14" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
