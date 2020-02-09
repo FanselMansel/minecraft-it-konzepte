@@ -6,9 +6,9 @@ Thema: Klassische Konzepte der Informatik mit einem Minecraft–Plugin vorstelle
 - [X] Grundgerüst erstellen
 - [X] Hashmap 
 - [X] Switchstatements
-- [ ] Weitere Blocks der ToDo Liste hinzufügen
-- [ ] Code in git Festhalten
+- [X] Sortiermethoden
+- [X] Code in Github Festhalten
+- [X] For-Each Schleifen
 - [ ] Code selbst reviewen
 - [ ] Word Doku
-  - [ ] Herausfinden wie Code snippets einzufügen sind
-- [ ] In Erfahrung bringen ob vollständige Doku
+  - [X] Herausfinden wie Code snippets einzufügen sind
