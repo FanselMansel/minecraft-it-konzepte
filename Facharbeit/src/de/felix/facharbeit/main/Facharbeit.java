@@ -6,15 +6,14 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import de.felix.facharbeit.commands.Countdown;
-import de.felix.facharbeit.commands.Hashmap;
-import de.felix.facharbeit.listerners.Listener_BlockPlaceEvent;
+import de.felix.facharbeit.commands.ForEach;
+import de.felix.facharbeit.commands.HashmapTesten;
+import de.felix.facharbeit.commands.Sortieren;
+import de.felix.facharbeit.listerners.Listeners;
+import de.felix.facharbeit.utils.Values;
 import de.felix.facharbeit.listerners.Listener_ClickedWool;
-import de.felix.facharbeit.listerners.Listener_DropEvent;
 import de.felix.facharbeit.listerners.Listener_Hashmap;
 import de.felix.facharbeit.listerners.Listener_InteractAndClickEvents;
-import de.felix.facharbeit.listerners.Listener_JoinQuitEvent;
-import de.felix.facharbeit.listerners.Listeners_DamageEvent;
-import de.felix.facharbeit.values.Values;
 
 /**
  * @author Felix Mansel
@@ -55,14 +54,12 @@ public class Facharbeit extends JavaPlugin {
 
 	private void loadListeners() {
 		//
-		Bukkit.getPluginManager().registerEvents(new Listener_JoinQuitEvent(), this);
-		//
-		Bukkit.getPluginManager().registerEvents(new Listener_DropEvent(), this);
-		Bukkit.getPluginManager().registerEvents(new Listeners_DamageEvent(), this);
-		Bukkit.getPluginManager().registerEvents(new Listener_BlockPlaceEvent(), this);
-		Bukkit.getPluginManager().registerEvents(new Listener_InteractAndClickEvents(), this);
+		Bukkit.getPluginManager().registerEvents(new Listeners(), this);
 		Bukkit.getPluginManager().registerEvents(new Listener_ClickedWool(), this);
 		Bukkit.getPluginManager().registerEvents(new Listener_Hashmap(), this);
+		Bukkit.getPluginManager().registerEvents(new Listener_InteractAndClickEvents(), this);
+		//
+
 
 	}
 
@@ -71,7 +68,9 @@ public class Facharbeit extends JavaPlugin {
 	 */
 	private void loadCommands() {
 		this.getCommand("countdown").setExecutor(new Countdown());
-		this.getCommand("hashmap").setExecutor(new Hashmap());
+		this.getCommand("hashmap").setExecutor(new HashmapTesten());
+		this.getCommand("foreach").setExecutor(new ForEach());
+		this.getCommand("sortieren").setExecutor(new Sortieren());
 	}
 
 	public static Facharbeit getPlugin() {

@@ -9,7 +9,7 @@ import org.bukkit.entity.Player;
 
 import de.felix.facharbeit.main.Facharbeit;
 import de.felix.facharbeit.utils.UtilityMethods;
-import de.felix.facharbeit.values.Values;
+import de.felix.facharbeit.utils.Values;
 
 /**
  * @author Felix Mansel

@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 
 import de.felix.facharbeit.main.Facharbeit;
 import de.felix.facharbeit.utils.ItemBuilder;
-import de.felix.facharbeit.values.Values;
+import de.felix.facharbeit.utils.Values;
 
 /**
  * @author Felix Mansel
@@ -20,7 +20,7 @@ import de.felix.facharbeit.values.Values;
  * Diese Klasse erstellt einen neuen im Spiel anwendbaren Command
  *
  */
-public class Hashmap implements CommandExecutor {
+public class HashmapTesten implements CommandExecutor {
     /**
      * Diese Methode wird ausgeführt wenn der Spieler den hier erstellten Command ausführt.
      * Für den Fall , dass die Argumentenlänge 0 ist und kein anderes Konzept getestet wird
@@ -35,16 +35,20 @@ public class Hashmap implements CommandExecutor {
 			Player p = (Player) sender;
 			if (args.length == 0) {
 				Facharbeit.getPlugin().testingActive.add(Values.woolHashmap);
+				
 				p.getInventory().setItem(1,
-						new ItemBuilder(Material.IRON_BLOCK, 1, 0).setDisplayName("§aTestobjekt").build());
-				p.getInventory().setItem(2, new ItemBuilder(Material.IRON_BLOCK, 1, 0).build());
+						new ItemBuilder(Material.IRON_BLOCK, 64, 0).setDisplayName("§aTestobjekt").build());
+				p.getInventory().setItem(2, new ItemBuilder(Material.DIAMOND_BLOCK, 64, 0).setDisplayName("§aTestobjekt").build());
 				p.getInventory().setItem(3,
 						new ItemBuilder(Material.IRON_PICKAXE, 1, 0).setDisplayName("§aObjekt abbauen").build());
 				p.getInventory().setItem(4,
+						new ItemBuilder(Material.IRON_BLOCK, 64, 0).setDisplayName("§aAnderes Testobjekt").build());
+				p.getInventory().setItem(5,
 						new ItemBuilder(Material.LAVA_BUCKET, 1, 0).setDisplayName("§4Testen abschließen").build());
 			} else if (args.length == 1) {
 				if (args[0].equals("clear")) {
 					p.getInventory().remove(Material.IRON_BLOCK);
+					p.getInventory().remove(Material.DIAMOND_BLOCK);
 					p.getInventory().remove(Material.IRON_PICKAXE);
 					p.getInventory().remove(Material.LAVA_BUCKET);
 					Facharbeit.getPlugin().testingActive.remove(Values.woolHashmap);

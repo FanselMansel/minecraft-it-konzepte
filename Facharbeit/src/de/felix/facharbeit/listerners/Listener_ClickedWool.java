@@ -8,7 +8,7 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import de.felix.facharbeit.commands.Countdown;
 import de.felix.facharbeit.main.Facharbeit;
 import de.felix.facharbeit.utils.UtilityMethods;
-import de.felix.facharbeit.values.Values;
+import de.felix.facharbeit.utils.Values;
 
 /**
  * @author Felix Mansel
@@ -49,6 +49,24 @@ public class Listener_ClickedWool implements Listener {
 							name = null;
 							break;
 
+						case (Values.woolForEach):
+							p.closeInventory();
+							p.sendMessage(Values.testingForEach);
+							p.sendMessage("");
+							p.performCommand("foreach");
+							name = null;
+							break;
+							
+						case (Values.woolDoppelteWhileSchleife):
+							p.closeInventory();
+							p.sendMessage(Values.testingSortieren);
+							p.sendMessage("");
+							try{
+							     Thread.sleep(2000);
+							}catch(InterruptedException e){}
+							p.performCommand("sortieren");
+							name = null;
+							break;	
 						default:
 							p.closeInventory();
 
@@ -57,6 +75,7 @@ public class Listener_ClickedWool implements Listener {
 						// Eckige Klammern entfernen
 						testingWhat = Facharbeit.getPlugin().testingActive.toString();
 						testingWhat = testingWhat.replace('[', ' ').replace(']', ' ');
+						p.closeInventory();
 						p.sendMessage(Values.prefix + "§aZurzeit wird das Konzept" + testingWhat + "§agetestet!");
 					}
 

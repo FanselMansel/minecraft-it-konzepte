@@ -5,7 +5,6 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import de.felix.facharbeit.commands.Countdown;
-import de.felix.facharbeit.values.Values;
 
 /**
  * @author Felix Mansel
@@ -63,4 +62,8 @@ public class UtilityMethods {
 		return Bukkit.getScheduler().isCurrentlyRunning(Countdown.task)
 				|| Bukkit.getScheduler().isQueued(Countdown.task);
 	}
+	/**
+	 * @return
+	 */
+
 }

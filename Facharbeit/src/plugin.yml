@@ -1,6 +1,9 @@
 name: Facharbeit
 main: de.felix.facharbeit.main.Facharbeit
-version: 0.1
+version: 1.0
 commands:
    countdown:
+      description: Mit diesem Command werden Switch-Statements demonstriert
    hashmap:
+   foreach:
+   sortieren:
